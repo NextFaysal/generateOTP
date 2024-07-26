@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.otp-box-lists{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #008000;
+}
+
+.otp-box-lists .otp-box {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px teal;
+    border-radius: 20%;
+    font-size: 25px;
+    border: none;
+}
+
+.generate-otp {
+    font-size: 20px;
+    font-weight: 700;
+}
